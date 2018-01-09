@@ -1,3 +1,8 @@
+---
+layout: default
+title: Main Page
+---
+
 # A Header
 
 Words
