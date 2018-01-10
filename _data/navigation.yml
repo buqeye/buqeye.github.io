@@ -1,0 +1,12 @@
+main:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Posts
+    url: /year-archive/
+  - title: Talks
+    url: /talks/
+  - title: Members
+    url: /member-archive/
+

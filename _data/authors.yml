@@ -1,0 +1,11 @@
+# /_data/authors.yml
+
+Dick Furnstahl:
+  name: "Dick Furnstahl"
+  email: "email@osu.edu"
+  bio: "The boss"
+
+Jordan Melendez:
+  name: "Jordan Melendez"
+  email: "another.email@osu.edu"
+  bio: "A graduate student"
