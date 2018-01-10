@@ -1,0 +1,12 @@
+---
+layout: archive
+permalink: /member-archive/
+title: "Members"
+---
+
+{% for member_hash in site.data.authors %}
+    {% assign member = member_hash[1] %}
+    {% if member.name %}<h1 class="page__title" itemprop="headline">{{ member.name }}</h1>{% endif %}
+    {% if member.email %} <p class="page__meta"><i class="fa fa-envelope-square" aria-hidden="true"></i> {{ member.email }}</p> {% endif %}
+    {% if member.bio %}<p class="archive__item-excerpt" itemprop="description">{{ member.bio }}</p>{% endif %}
+{% endfor %}
