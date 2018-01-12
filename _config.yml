@@ -3,6 +3,8 @@ name: BUQEYE
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+title: "<i class='fab fa-lg fa-github' aria-hidden='true'></i> BUQEYE Collaboration"
+
 # Reading Files
 include:
   - _pages # Be sure Jekyll "sees" and processes the files inside of _pages
@@ -11,6 +13,9 @@ include:
 # Collections
 collections:
   talks:
+    output: true
+    permalink: /:collection/:path/
+  publications:
     output: true
     permalink: /:collection/:path/
 
@@ -43,3 +48,11 @@ defaults:
       layout: talk
       mathjax: true
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      mathjax: true
+      author_profile: false
