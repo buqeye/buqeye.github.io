@@ -1,0 +1,13 @@
+---
+layout: archive
+permalink: /publications/
+title: "Publications"
+---
+
+{% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'"  %}
+{% for year in postsByYear reversed %}
+  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+  {% for post in year.items reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
