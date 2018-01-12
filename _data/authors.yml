@@ -3,9 +3,53 @@
 Dick Furnstahl:
   name: "Dick Furnstahl"
   email: "email@osu.edu"
+  avatar: "/assets/images/furnstahl2_21Jun2017_headshot.jpg"
   bio: "The boss"
+
+Daniel Phillips:
+  name: "Daniel Phillips"
+  email: "hisemail@ou.edu"
+  bio: "The ruler of Athens"
+
+Sarah Wesolowski:
+  name: "Sarah Wesolowski"
+  email: "heremail@something.edu"
+  bio: "A new boss"
 
 Jordan Melendez:
   name: "Jordan Melendez"
   email: "another.email@osu.edu"
   bio: "A graduate student"
+
+# Example with all possible attributes
+# author:
+#   name             : "Your Name"
+#   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+#   bio              : "I am an amazing person."
+#   location         : "Somewhere"
+#   email            :
+#   uri              :
+#   home             : # null (default), "absolute or relative url to link to author home"
+#   bitbucket        :
+#   codepen          :
+#   dribbble         :
+#   flickr           :
+#   facebook         :
+#   foursquare       :
+#   github           :
+#   gitlab           :
+#   google_plus      :
+#   keybase          :
+#   instagram        :
+#   lastfm           :
+#   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+#   pinterest        :
+#   soundcloud       :
+#   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+#   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+#   tumblr           :
+#   twitter          :
+#   vine             :
+#   weibo            :
+#   xing             :
+#   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
