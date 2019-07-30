@@ -56,3 +56,14 @@ defaults:
       layout: single
       mathjax: true
       author_profile: false
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+
