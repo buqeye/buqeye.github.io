@@ -1,12 +1,12 @@
 main:
   # - title: Home
   #   url: /
-  - title: Publications
-    url: /publications/
-  - title: Posts
-    url: /posts/
-  - title: Talks
-    url: /talks/
   - title: Members
     url: /members/
+  - title: Publications
+    url: /publications/
+  - title: Talks
+    url: /talks/
+  - title: Links
+    url: /links/
 
