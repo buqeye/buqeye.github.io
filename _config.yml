@@ -1,7 +1,7 @@
 name: BUQEYE
 # theme: jekyll-theme-slate
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 title: "<i class='fab fa-lg fa-github' aria-hidden='true'></i> BUQEYE Collaboration"
 
