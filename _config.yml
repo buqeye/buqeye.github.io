@@ -7,7 +7,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 
 #title: "<i class='fab fa-lg fa-github' aria-hidden='true'></i> BUQEYE Collaboration"
 title: "BUQEYE Collaboration"
-logo: "/assets/images/furnstahl2_21Jun2017_headshot.jpg"
+logo: "/assets/images/BUQEYE_logo.png"
 
 # Reading Files
 include:
