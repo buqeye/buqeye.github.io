@@ -8,8 +8,8 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 #title: "<i class='fab fa-lg fa-github' aria-hidden='true'></i> BUQEYE Collaboration"
 title: "BUQEYE Collaboration"
 logo: "/assets/images/BUQEYE_logo.png"
-header:
-  image: "/assets/images/waveplot.png"
+#header:
+#  image: "/assets/images/waveplot.png"
 
 # Reading Files
 include:
