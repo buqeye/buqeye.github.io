@@ -13,3 +13,4 @@ The BUQEYE Collaboration aims to use statistical tools to answer fundamental pro
 With a specific focus on chiral EFT, we have proposed and tested a Bayesian model of truncation errors, the dominant source of error in the theory.
 Meaningful uncertainty quantification allows physicists to compare theory to experiment, but we have also shown that it provides a useful metric to avoid overfitting the parameters the EFT.
 Beyond chiral EFT, we are investigating methods to quantify uncertainties in pionless EFT and in electroweak processes.
+Test.
