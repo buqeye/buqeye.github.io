@@ -9,8 +9,10 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.15)
 ---
 
-The BUQEYE Collaboration aims to use statistical tools to answer fundamental problems in the construction of nuclear effective field theories (EFTs).
-With a specific focus on chiral EFT, we have proposed and tested a Bayesian model of truncation errors, the dominant source of error in the theory.
-Meaningful uncertainty quantification allows physicists to compare theory to experiment, but we have also shown that it provides a useful metric to avoid overfitting the parameters the EFT.
-Beyond chiral EFT, we are investigating methods to quantify uncertainties in pionless EFT and in electroweak processes.
+The BUQEYE Collaboration aims to use statistical tools to answer fundamental problems in the construction and application of effective field theories (EFTs), with particular attention to low-energy nuclear physics.
+This includes Bayesian parameter estimation, model checking, and model selection.
+
+We have proposed and tested a Bayesian model of truncation errors, which is often the dominant source of errors for EFTs.
+Meaningful uncertainty quantification (UQ) allows physicists to compare theory to experiment, but we have also shown that it provides a useful metric to avoid overfitting the parameters the EFT.
+Specific applications are to chiral EFT, pionless and halo EFT, and to electroweak processes in all cases.
 
