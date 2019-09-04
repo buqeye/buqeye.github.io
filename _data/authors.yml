@@ -4,22 +4,22 @@ Dick Furnstahl:
   name: "Dick Furnstahl"
   email: "furnstahl.1@osu.edu"
   avatar: "/assets/images/furnstahl2_21Jun2017_headshot.jpg"
-  bio: "The boss"
+  bio: "Professor of Physics at Ohio State University, Columbus, Ohio, USA"
 
 Daniel Phillips:
   name: "Daniel Phillips"
-  email: "hisemail@ou.edu"
-  bio: "The ruler of Athens"
+  email: "phillid1@ohio.edu"
+  bio: "Professor of Physics at Ohio University, Athens, Ohio, USA"
 
 Sarah Wesolowski:
   name: "Sarah Wesolowski"
-  email: "heremail@something.edu"
-  bio: "A new boss"
+  email: "scwesolowski@salisbury.edu"
+  bio: "Assistant Professor at Salisbury University, Salisbury, Maryland, USA"
 
 Jordan Melendez:
   name: "Jordan Melendez"
-  email: "another.email@osu.edu"
-  bio: "A graduate student"
+  email: "melendez.27@buckeyemail.osu.edu"
+  bio: "Graduate student at Ohio State University, Columbus, Ohio, USA"
 
 # Example with all possible attributes
 # author:
