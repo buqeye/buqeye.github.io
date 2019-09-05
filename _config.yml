@@ -36,6 +36,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  software:
+    output: true
+    permalink: /:collection/:path/
 
 
 defaults:
@@ -70,6 +73,14 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      mathjax: true
+      author_profile: false
+  # _software
+  - scope:
+      path: ""
+      type: software
     values:
       layout: single
       mathjax: true
