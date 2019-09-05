@@ -9,5 +9,18 @@ title: "Members"
     {% if member.name %}<h2 class="page__title" itemprop="headline">{{ member.name }}</h2>{% endif %}
     {% if member.avatar %}<img src={{ member.avatar}} width="100" >{% endif %}
     {% if member.bio %}<p class="archive__item-excerpt" itemprop="description">{{ member.bio }}</p>{% endif %}
+    {% if member.email %} <p class="archive__item-excerpt" itemprop="description">{{ member.email }}</p> {% endif %}
+{% endfor %}
+
+
+<!--
+
+{% for member_hash in site.data.authors %}
+    {% assign member = member_hash[1] %}
+    {% if member.name %}<h2 class="page__title" itemprop="headline">{{ member.name }}</h2>{% endif %}
+    {% if member.avatar %}<img src={{ member.avatar}} width="100" >{% endif %}
+    {% if member.bio %}<p class="archive__item-excerpt" itemprop="description">{{ member.bio }}</p>{% endif %}
     {% if member.email %} <p class="page__meta"><i class="fa fa-envelope-square" aria-hidden="true"></i> {{ member.email }}</p> {% endif %}
 {% endfor %}
+
+-->
