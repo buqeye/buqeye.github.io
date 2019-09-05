@@ -5,7 +5,7 @@ title: What is BUQEYE?
 show_downloads: false
 excerpt: "Bayesian Uncertainty Quantification: Errors in Your EFT"
 header:
-  overlay_image: /assets/images/waveplot.pdf
+  overlay_image: /assets/images/waveplot.png
   overlay_filter: rgba(0, 0, 0, 0.15)
 ---
 
