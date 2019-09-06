@@ -6,9 +6,9 @@ title: "Publications"
 
 {% assign postsByYear = site.publications | group_by_exp:"post", "post.date | date: '%Y'"  %}
 {% for year in postsByYear reversed %}
-  <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
+  <h3 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h3>
   {% for post in year.items reversed %}
     {% include archive-single.html %}
-    <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>
+    <p><a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a></p>
   {% endfor %}
 {% endfor %}
