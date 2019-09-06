@@ -9,5 +9,6 @@ title: "Publications"
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items reversed %}
     {% include archive-single.html %}
+    <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>
   {% endfor %}
 {% endfor %}
