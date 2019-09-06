@@ -7,7 +7,7 @@ title: "Members"
 {% for member_hash in site.data.authors %}
     {% assign member = member_hash[1] %}
     {% if member.name %}<h2 class="page__title" itemprop="headline">{{ member.name }}</h2>{% endif %}
-    {% if member.avatar %}<img src={{ member.avatar}} width="100" >{% endif %}
+    {% if member.avatar %}<img src={{ member.avatar}} height="100" >{% endif %}
     {% if member.bio %}<p class="archive__item-excerpt" itemprop="description">{{ member.bio }}
         {% if member.email %} <br> {{ member.email }} {% endif %}
     </p>
