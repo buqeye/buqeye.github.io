@@ -4,9 +4,17 @@ permalink: /members/
 title: "Members"
 ---
 
+<p>[* means founding member of BUQEYE collaboration]</p>
+
 {% for member_hash in site.data.authors %}
     {% assign member = member_hash[1] %}
-    {% if member.name %}<h2 class="page__title" itemprop="headline">{{ member.name }}</h2>{% endif %}
+    {% if member.name %}
+        {% if member.founder %}
+            <h2 class="page__title" itemprop="headline">{{ member.name }}*</h2>
+        {% else %}
+            <h2 class="page__title" itemprop="headline">{{ member.name }}</h2>
+        {% endif %}
+    {% endif %}
     {% if member.avatar %}<img src={{ member.avatar}} style="height:120px;" >{% endif %}
     {% if member.bio %}<p class="archive__item-excerpt" itemprop="description">{{ member.bio }}
         {% if member.email %} <br> {{ member.email }} {% endif %}
