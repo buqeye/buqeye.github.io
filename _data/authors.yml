@@ -7,6 +7,12 @@ Dick Furnstahl:
   bio: "Professor of Physics at Ohio State University, Columbus, Ohio, USA"
   founder: ""
 
+Jordan Melendez:
+  name: "Jordan Melendez"
+  email: "melendez.27@buckeyemail.osu.edu"
+  bio: "Graduate student at Ohio State University, Columbus, Ohio, USA"
+  founder: "True"
+
 Daniel Phillips:
   name: "Daniel Phillips"
   email: "phillid1@ohio.edu"
@@ -19,12 +25,6 @@ Sarah Wesolowski:
   email: "scwesolowski@salisbury.edu"
   avatar: "/assets/images/scwesolowski.jpg"
   bio: "Assistant Professor at Salisbury University, Salisbury, Maryland, USA"
-  founder: "True"
-
-Jordan Melendez:
-  name: "Jordan Melendez"
-  email: "melendez.27@buckeyemail.osu.edu"
-  bio: "Graduate student at Ohio State University, Columbus, Ohio, USA"
   founder: "True"
 
 # Example with all possible attributes
