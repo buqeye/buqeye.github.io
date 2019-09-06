@@ -5,21 +5,27 @@ Dick Furnstahl:
   email: "furnstahl.1@osu.edu"
   avatar: "/assets/images/furnstahl2_21Jun2017_headshot.jpg"
   bio: "Professor of Physics at Ohio State University, Columbus, Ohio, USA"
+  founder: ""
 
 Daniel Phillips:
   name: "Daniel Phillips"
   email: "phillid1@ohio.edu"
   bio: "Professor of Physics at Ohio University, Athens, Ohio, USA"
+  avatar: "/assets/images/PHILLIPS_Daniel-480x281px_cropped.jpg"
+  founder: "True"
 
 Sarah Wesolowski:
   name: "Sarah Wesolowski"
   email: "scwesolowski@salisbury.edu"
+  avatar: "/assets/images/scwesolowski.jpg"
   bio: "Assistant Professor at Salisbury University, Salisbury, Maryland, USA"
+  founder: "True"
 
 Jordan Melendez:
   name: "Jordan Melendez"
   email: "melendez.27@buckeyemail.osu.edu"
   bio: "Graduate student at Ohio State University, Columbus, Ohio, USA"
+  founder: "True"
 
 # Example with all possible attributes
 # author:
