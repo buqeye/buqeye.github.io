@@ -8,7 +8,7 @@ title: "Publications"
 {% for year in postsByYear reversed %}
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items reversed %}
-      <h3><a href="{{ post.link }}">{{ title }}</a></h3>
+      <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
       <p>
     	<a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>
       </p>
