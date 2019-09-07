@@ -6,7 +6,7 @@ show_downloads: false
 excerpt: "Bayesian Uncertainty Quantification: Errors in Your EFT"
 header:
   overlay_image: /assets/images/waveplot.png
-  overlay_filter: rgba(0, 0, 0, 0.15)
+  overlay_filter: rgba(0, 0, 0, 0.1)
 ---
 
 The BUQEYE Collaboration aims to use statistical tools to answer fundamental problems in the construction and application of effective field theories (EFTs), with particular attention to low-energy nuclear physics.
