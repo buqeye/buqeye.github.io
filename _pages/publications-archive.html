@@ -9,16 +9,17 @@ title: "Publications"
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items reversed %}
       <p>
-      	<a href="{{ post.url | relative_url }}">{{ post.title }}</a>,
-      	{{ post.author }},
-      	{% if post.pub %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>,
+        {{ post.author }},
+        {% if post.pub %}
         	<a href="{{ post.link }}">{{ post.pub }}</a>,
         {% endif %}
-    	<a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>.
+        <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>.
+        {% if post.excerpt %}
+          <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html   | truncate: 160 }}</div>
+        {% endif %}
       </p>
-  {% if post.excerpt %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
-  {% endif %}
+
    
   {% endfor %}
 {% endfor %}
