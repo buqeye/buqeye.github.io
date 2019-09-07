@@ -1,6 +1,6 @@
 ---
 title: Quantifying truncation errors in effective field theory
-author: [Dick Furnstahl, Natalie Klco, Daniel Phillips, Sarah Wesolowski]
+author: "Dick Furnstahl, Natalie Klco, Daniel Phillips, and Sarah Wesolowski"
 doi: "10.1103/PhysRevC.92.024005"
 arxiv: "1506.01343 "
 ---

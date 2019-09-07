@@ -1,6 +1,6 @@
 ---
-title:  "Quantifying Correlated Truncation Errors in Effective Field Theory"
-author: [Jordan Melendez, Dick Furnstahl, Daniel Phillips, Matt Pratola, Sarah Wesolowski]
+title:  "Quantifying correlated truncation errors in effective field theory"
+author: "Jordan Melendez, Dick Furnstahl, Daniel Phillips, Matt Pratola, and Sarah Wesolowski"
 doi: ""
 arxiv: "1904.10581"
 pub: ""

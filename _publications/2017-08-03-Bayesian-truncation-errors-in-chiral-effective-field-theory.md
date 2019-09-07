@@ -1,6 +1,6 @@
 ---
 title:  "Bayesian truncation errors in chiral effective field theory: Nucleon-nucleon observables"
-author: [Jordan Melendez, Sarah Wesolowski, Dick Furnstahl]
+author: "Jordan Melendez, Sarah Wesolowski, and Dick Furnstahl"
 doi: "10.1103/PhysRevC.96.024003"
 arxiv: "1704.03308"
 ---

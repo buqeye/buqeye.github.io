@@ -1,6 +1,6 @@
 ---
 title:  "Bayesian parameter estimation for effective field theories"
-author: [Sarah Wesolowski, Natalie Klco, Dick Furnstahl, Daniel Phillips, A. Thapaliya]
+author: "Sarah Wesolowski, Natalie Klco, Dick Furnstahl, Daniel Phillips, and A. Thapaliya"
 doi: "10.1088/0954-3899/43/7/074001"
 arxiv: "1511.03618"
 ---

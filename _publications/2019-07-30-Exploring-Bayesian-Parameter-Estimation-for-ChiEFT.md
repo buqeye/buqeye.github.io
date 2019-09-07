@@ -1,6 +1,6 @@
 ---
 title:  "Exploring Bayesian parameter estimation for chiral effective field theory using nucleon-nucleon phase shifts"
-author: [Sarah Wesolowski, Dick Furnstahl, Jordan Melendez, Daniel Phillips]
+author: "Sarah Wesolowski, Dick Furnstahl, Jordan Melendez, and Daniel Phillips"
 doi: "10.1088/1361-6471/aaf5fc"
 arxiv: "1808.08211"
 pub: "J. Phys. G 46, 045102"
