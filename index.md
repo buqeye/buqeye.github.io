@@ -16,3 +16,4 @@ We have proposed and tested a Bayesian model of truncation errors, which is ofte
 Meaningful uncertainty quantification (UQ) allows physicists to compare theory to experiment, but we have also shown that it provides a useful metric to avoid overfitting the parameters the EFT.
 Specific applications are to chiral EFT, pionless and halo EFT, and to electroweak processes in all cases.
 
+*Supported in part by the US Department of Energy, the National Science Foundation, and the SciDAC NUCLEI-2 project.*
