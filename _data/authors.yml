@@ -4,21 +4,29 @@ Dick Furnstahl:
   name: "Dick Furnstahl"
   email: "furnstahl.1@osu.edu"
   avatar: "/assets/images/furnstahl2_21Jun2017_headshot.jpg"
-  bio: "Professor of Physics at Ohio State University, Columbus, Ohio, USA"
+  bio: "Professor of Physics at Ohio State University, Columbus, OH, USA"
   founder: "True"
   homepage: "https://www.asc.ohio-state.edu/furnstahl.1/"
+
+Natalie Klco:
+  name: "Natalie Klco"
+  email: "klcon@uw.edu"
+  founder: "True"
+  avatar: "/assets/images/Klco_Natalie.jpg"
+  bio: "Graduate student at the University of Washington, Seattle, WA, USA"
+  homepage: "https://nklco.yolasite.com"
 
 Jordan Melendez:
   name: "Jordan Melendez"
   email: "melendez.27@buckeyemail.osu.edu"
   avatar: "/assets/images/Melendez_Jordan.jpg"
-  bio: "Graduate student at Ohio State University, Columbus, Ohio, USA"
+  bio: "Graduate student at Ohio State University, Columbus, OH, USA"
   homepage: ""
 
 Daniel Phillips:
   name: "Daniel Phillips"
   email: "phillid1@ohio.edu"
-  bio: "Professor of Physics at Ohio University, Athens, Ohio, USA"
+  bio: "Professor of Physics at Ohio University, Athens, OH, USA"
   avatar: "/assets/images/PHILLIPS_Daniel-480x281px_cropped.jpg"
   founder: "True"
   homepage: "https://www.ohio.edu/cas/phillid1"
@@ -27,7 +35,7 @@ Sarah Wesolowski:
   name: "Sarah Wesolowski"
   email: "scwesolowski@salisbury.edu"
   avatar: "/assets/images/scwesolowski.jpg"
-  bio: "Assistant Professor of Mathematics at Salisbury University, Salisbury, Maryland, USA"
+  bio: "Assistant Professor of Mathematics at Salisbury University, Salisbury, MD, USA"
   founder: "True"
   homepage: "http://faculty.salisbury.edu/~scwesolowski/"
 
