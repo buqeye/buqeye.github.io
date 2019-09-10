@@ -39,6 +39,13 @@ Sarah Wesolowski:
   founder: "True"
   homepage: "http://faculty.salisbury.edu/~scwesolowski/"
 
+Xilin Zhang:
+  name: "Xilin Zhang"
+  email: "zhang.10038@osu.edu"
+  avatar: "/assets/images/Zhang_Xilin.jpg"
+  bio: "Postdoc at Ohio State University, Columbus, OH, USA"
+  homepage: ""
+
 # Example with all possible attributes
 # author:
 #   name             : "Your Name"
