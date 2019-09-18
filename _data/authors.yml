@@ -1,5 +1,12 @@
 # /_data/authors.yml
 
+Christian Drischler:
+  name: "Christian Drischler"
+  email: "cdrischler@berkeley.edu"
+  avatar: "/assets/images/drischler.jpg"
+  bio: "Lynen Fellow, Humboldt Foundation, at LBL, Berkeley, CA, USA"
+  homepage: "https://nt.lbl.gov/members/postdoctoral-fellows/christian-drischler"
+
 Dick Furnstahl:
   name: "Dick Furnstahl"
   email: "furnstahl.1@osu.edu"
@@ -7,13 +14,6 @@ Dick Furnstahl:
   bio: "Professor of Physics at Ohio State University, Columbus, OH, USA"
   founder: "True"
   homepage: "https://www.asc.ohio-state.edu/furnstahl.1/"
-
-Christian Drischler:
-  name: "Christian Drischler"
-  email: "cdrischler@berkeley.edu"
-  avatar: "/assets/images/drischler.jpg"
-  bio: "Lynen Fellow, Humboldt Foundation, at LBL, Berkeley, CA, USA"
-  homepage: "https://nt.lbl.gov/members/postdoctoral-fellows/christian-drischler"
 
 Harald Griesshammer:
   name: "Harald Grie&szlig;hammer"
