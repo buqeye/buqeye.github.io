@@ -3,7 +3,7 @@ title:  "Exploring Bayesian parameter estimation for chiral effective field theo
 author: "Sarah Wesolowski, Dick Furnstahl, Jordan Melendez, and Daniel Phillips"
 doi: "10.1088/1361-6471/aaf5fc"
 arxiv: "1808.08211"
-pub: "J. Phys. G 46, 045102"
+pub: "J. Phys. G 46, 045102 (2019)"
 link: "https://iopscience.iop.org/article/10.1088/1361-6471/aaf5fc"
 ---
 
