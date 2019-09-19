@@ -1,5 +1,5 @@
 ---
-title:  "S-factor and scattering-parameter extractions from $${}^3{\rm He} + {}^4{\rm He} \rightarrow {}^7{\rm Be} + \gamma$$"
+title:  "S-factor and scattering-parameter extractions from He-3 + he-4 -> Be-7 + gamma"
 author: "Xilin Zhang, Kenneth M. Nollett, and D. R. Phillips"
 arxiv: "1909.07287"
 doi:
