@@ -9,7 +9,7 @@ title: "Publications"
   <h2 id="{{ year.name | slugify }}" class="archive__subtitle">{{ year.name }}</h2>
   {% for post in year.items reversed %}
       <p>
-        <a href="{{ post.url | relative_url }}"><b>{{ post.title | markdownify }}</b></a>,
+        <a href="{{ post.url | relative_url }}"><b>{{ post.title }}</b></a>,
         {{ post.author }},
         {% if post.pub %}
         	<a href="{{ post.link }}">{{ post.pub }}</a>,
