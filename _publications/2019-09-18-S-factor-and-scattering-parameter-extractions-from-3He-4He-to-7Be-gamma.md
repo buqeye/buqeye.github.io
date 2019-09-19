@@ -7,7 +7,7 @@ pub:
 link:
 ---
 
-Previous studies of the reaction ${}^3{\rm He} + {}^4{\rm He} \rightarrow {}^7{\rm Be} + \gamma$ have mainly focused on providing the best central value and error bar for the $S$ factor at solar energies. 
+Previous studies of the reaction $${}^3{\rm He} + {}^4{\rm He} \rightarrow {}^7{\rm Be} + \gamma$$ have mainly focused on providing the best central value and error bar for the $S$ factor at solar energies. 
 Experimental measurements of this capture reaction at higher energies, the ${}^3$He-${}^4$He scattering phase shifts, as well as
 properties of ${}^7$Be$ and its excited state, have been used to constrain the theoretical models employed for this purpose. 
 Here we show that much more information than was previously appreciated can be extracted from angle-integrated capture data 
