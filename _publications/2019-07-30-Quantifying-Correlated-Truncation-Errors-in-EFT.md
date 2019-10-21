@@ -3,7 +3,7 @@ title:  "Quantifying correlated truncation errors in effective field theory"
 author: "Jordan Melendez, Dick Furnstahl, Daniel Phillips, Matt Pratola, and Sarah Wesolowski"
 arxiv: "1904.10581"
 doi: 
-pub: "Phys. Rev. C, to appear"
+pub: "Phys. Rev. C 100, 044001 (2019)"
 link: 
 ---
 

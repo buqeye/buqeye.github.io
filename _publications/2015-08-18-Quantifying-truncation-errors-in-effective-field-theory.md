@@ -3,7 +3,7 @@ title: Quantifying truncation errors in effective field theory
 author: "Dick Furnstahl, Natalie Klco, Daniel Phillips, and Sarah Wesolowski"
 doi: "10.1103/PhysRevC.92.024005"
 arxiv: "1506.01343"
-pub: "Phys.Rev. C 92, 024005 (2015)"
+pub: "Phys. Rev. C 92, 024005 (2015)"
 link: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.92.024005"
 ---
 
