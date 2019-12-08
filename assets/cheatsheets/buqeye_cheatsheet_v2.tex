@@ -1,0 +1,266 @@
+%!TEX program = lualatex
+
+\documentclass[xcolor=dvipsnames, aspectratio=169]{beamer}
+\usetheme[
+    outer/progressbar=foot,
+    ]{metropolis}           % Use metropolis theme
+% \usecolortheme[snowy]{owl}
+
+
+% \usepackage{footbib}
+
+\usepackage{graphicx,amsmath,amssymb,bm}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tikz, pgfplots, filecontents, tikzscale}
+\usetikzlibrary{arrows, arrows.meta, tikzmark}
+\usetikzlibrary{shapes.geometric, shapes}
+\usetikzlibrary{calc}
+\tikzstyle{every picture}+=[remember picture]
+\usepackage{pgfpages}
+\usepackage{multimedia}
+\usepackage{media9}
+\usepackage{tabu}
+\usepackage{multirow}
+\usepackage{standalone}
+\usepackage{physics}
+\usepackage[most]{tcolorbox}
+\usepackage{appendixnumberbeamer}
+\tcbuselibrary{listings}
+\tcbuselibrary{raster}
+\tcbuselibrary{skins}
+
+\usepackage{booktabs}
+
+\usepackage{mathtools}
+
+% One style for all TikZ pictures for working with overlays:
+\tikzset{every picture/.style=remember picture}
+% Define a TikZ node for math content:
+\newcommand{\mathnode}[2]{%
+   \mathord{\tikz[baseline=(#1.base), inner sep = 0pt]{\node (#1) {$#2$};}}}
+
+\usepackage{natbib}
+
+\newcommand\myfootcite[1]{\footnote{\cite{#1}}}
+
+% Math column
+\newcolumntype{M}[1]{>{$}#1<{$}@{\hskip 0.05in}}
+
+\tcbset{
+    metropolisstyle/.style={
+        enhanced,
+        colback=normal text.bg!90!normal text.fg,
+        colframe=normal text.fg,
+        fonttitle=\bfseries,
+        coltitle=normal text.bg,
+        colbacktitle=normal text.fg!95!normal text.bg,
+        attach boxed title to top center={yshift=-0.25mm-\tcboxedtitleheight/2,yshifttext=2mm-\tcboxedtitleheight/2},
+        boxed title style={
+            boxrule=0.5mm,
+            frame code={ \path[tcb fill frame] ([xshift=-4mm]frame.west)
+            -- (frame.north west) -- (frame.north east) -- ([xshift=4mm]frame.east)
+            -- (frame.south east) -- (frame.south west) -- cycle; },
+            interior code={ \path[tcb fill interior] ([xshift=-2mm]interior.west)
+            -- (interior.north west) -- (interior.north east)
+            -- ([xshift=2mm]interior.east) -- (interior.south east) -- (interior.south west)
+            -- cycle;}
+        }
+    }
+}
+
+
+
+\tcbset{
+    nostyle/.style={
+        enhanced,
+        colback=normal text.bg,
+        colframe=normal text.bg,
+        fonttitle=\bfseries,
+        coltitle=normal text.bg,
+        colbacktitle=normal text.fg!95!normal text.bg,
+        attach boxed title to top center={yshift=-0.25mm-\tcboxedtitleheight/2,yshifttext=2mm-\tcboxedtitleheight/2},
+        boxed title style={
+            boxrule=0.5mm,
+            frame code={ \path[tcb fill frame] ([xshift=-4mm]frame.west)
+            -- (frame.north west) -- (frame.north east) -- ([xshift=4mm]frame.east)
+            -- (frame.south east) -- (frame.south west) -- cycle; },
+            interior code={ \path[tcb fill interior] ([xshift=-2mm]interior.west)
+            -- (interior.north west) -- (interior.north east)
+            -- ([xshift=2mm]interior.east) -- (interior.south east) -- (interior.south west)
+            -- cycle;}
+        }
+    }
+}
+
+\tcbset{
+    subbox/.style={
+        sidebyside, notitle, nobeforeafter, frame hidden,
+        size=minimal, bottom=2mm, top=2mm, valign=center,
+        sidebyside gap=4mm
+    }
+}
+
+
+
+\newtcolorbox{myblock}[2][]{
+    metropolisstyle,
+    title=#2,
+    #1
+}
+
+
+
+% ======================================================================
+% Begin Theme Styling
+% ======================================================================
+
+% Official OSU scarlet color
+\definecolor{OSUscarlet}{RGB}{187, 0, 0}
+
+% Tableau 10 palette
+\definecolor{t10blue}{HTML}{1f77b4}
+\definecolor{t10orange}{HTML}{ff7f0e}
+\definecolor{t10green}{HTML}{2ca02c}
+\definecolor{t10red}{HTML}{d62728}
+\definecolor{t10purple}{HTML}{9467bd}
+
+% Theme colors are derived from these two elements
+% \setbeamercolor{normal text}{%
+%     fg=mDarkTeal,
+%     bg=black!2
+%   }
+
+% Change color bar
+% \setbeamercolor{alerted text}{fg=OSUscarlet}
+
+% ... however you can of course override styles of all elements
+% \setbeamercolor{frametitle}{bg=OSUscarlet}
+
+
+% Leave normal text alone, but change primary palette
+% \setbeamercolor{palette primary}{%
+%   use=normal text,
+%   fg=normal text.bg,
+%   % bg=normal text.fg,
+%   bg=OSUscarlet  % Controls color of standout frames
+% }
+
+% ======================================================================
+% End Theme Styling
+% ======================================================================
+
+% ======================================================================
+% Begin Code Styling
+% ======================================================================
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  % backgroundcolor=\color{white},    % choose the background color
+  basicstyle=\footnotesize\ttfamily,  % size of fonts used for the code + typewriter (mono)
+  breaklines=true,                    % automatic line breaking only at whitespace
+  captionpos=b,                       % sets the caption-position to bottom
+  commentstyle=\color{mygray},        % comment style
+  escapeinside={-*}{*-},              % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},          % keyword style
+  stringstyle=\color{mygreen},        % string literal style
+}
+
+
+\newtcblisting{python}[1][]{
+  listing only,
+  % breakable,
+  colframe=gray,
+  colback=gray!10,
+  bottom=-2.5mm, top=-2.5mm,
+  left=2mm, right=2mm,
+  listing options={
+    language=python,
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    columns=fullflexible,
+    morekeywords={with,as},
+    texcl  % Comments are LaTeX
+  },
+  #1
+}
+
+% Example usage:
+% \begin{frame}[fragile]
+% \begin{python}[]
+% # A comment with \LaTeX: $x^2 = \pi$
+% g = 'hello'
+% for i in range(10):
+%     print(i)
+% \end{python}
+% \end{frame}
+
+% ======================================================================
+% End Code Styling
+% ======================================================================
+
+
+% ======================================================================
+% ======================================================================
+% Begin Slides
+% ======================================================================
+% ======================================================================
+
+\begin{document}
+
+
+\begin{frame}[plain, fragile, t]{The BUQEYE Cheatsheet for Pointwise Truncation Errors (arXiv:1904.10581)}
+
+\begin{columns}
+\begin{column}{0.5\textwidth}
+From observable $y$, extract coefficients
+\begin{align} \tag{A1}
+    \vec{y}_k \equiv \{y_0, y_1, \cdots, y_k\}
+    \Rightarrow
+    \vec{c}_k \equiv \{c_0, c_1, \cdots, c_k\}
+\end{align}
+Choose $\nu_0$ and $\tau_0$. Update hyperparameters
+\begin{align}
+    \nu & = \nu_0 + n_c \tag{A7} \\
+    \nu\tau^2 & = \nu_0 \tau_0^2 + \vec{c}_k^{\,2}  \tag{A8}
+\end{align}
+Compute posterior
+\begin{align} \tag{A13}
+    \!\!\!\textup{pr}(y \,|\, \vec{y}_k, Q) \sim t_\nu\!\!\left[ y_k, y_{\textup{ref}}^2 \frac{Q^{2(k+1)}}{1 - Q^2}\tau^2\right]\!\!\!
+\end{align}
+
+\end{column}
+
+\hspace*{0.5mm}  % adjust spacing between columns
+
+\begin{column}{0.5\textwidth}
+\vspace*{-0.5mm}
+\begin{python}[]
+import numpy as np
+y_ref = 20.0; Q = 0.3; k = 3
+y_k = [21.7, 27.3, 25.4, 26.2]
+c_k = np.array([y_k[0] / y_ref] + [
+  (y_k[n] - y_k[n-1]) / (y_ref * Q**n)
+  for n in range(1, k+1)])
+
+nu_0 = 1; tau_0 = 1  # $\sim$Uninformative
+nu = nu_0 + len(c_k)
+tau_sq = \
+  (nu_0 * tau_0**2 + c_k @ c_k) / nu
+
+from scipy.stats import t
+scale = y_ref * Q**(k+1) * \
+  ( tau_sq / (1 - Q**2) )**0.5 
+y = t(nu, y_k[-1], scale)
+dob = y.interval(0.95) # (25.7, 26.7)
+\end{python}
+\end{column}
+\end{columns}
+
+\end{frame}
+
+
+\end{document}
