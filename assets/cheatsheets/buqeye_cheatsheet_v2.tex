@@ -202,6 +202,7 @@
 % End Code Styling
 % ======================================================================
 
+\usepackage{hyperref}
 
 % ======================================================================
 % ======================================================================
@@ -212,16 +213,23 @@
 \begin{document}
 
 
-\begin{frame}[plain, fragile, t]{The BUQEYE Cheatsheet for Pointwise Truncation Errors (arXiv:1904.10581)}
+\begin{frame}[plain, fragile, t]{The BUQEYE Cheatsheet for Pointwise Truncation Errors (\href{https://arxiv.org/abs/1904.10581}{arXiv:1904.10581})}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
 From observable $y$, extract coefficients
 \begin{align} \tag{A1}
-    \vec{y}_k \equiv \{y_0, y_1, \cdots, y_k\}
+\begin{split}
+    \vec{y}_k & \equiv \{y_0, y_1, \cdots, y_k\} \\
     \Rightarrow
-    \vec{c}_k \equiv \{c_0, c_1, \cdots, c_k\}
+    \vec{c}_k & \equiv \{c_0, c_1, \cdots, c_k\}
+\end{split}
 \end{align}
+% \begin{align} \tag{A1}
+%     \vec{y}_k \equiv \{y_0, y_1, \cdots, y_k\}
+%     \Rightarrow
+%     \vec{c}_k \equiv \{c_0, c_1, \cdots, c_k\}
+% \end{align}
 Choose $\nu_0$ and $\tau_0$. Update hyperparameters
 \begin{align}
     \nu & = \nu_0 + n_c \tag{A7} \\
