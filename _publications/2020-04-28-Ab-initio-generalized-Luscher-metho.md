@@ -1,5 +1,5 @@
 ---
-title:  "*Ab initio* calculations of low-energy nuclear scattering
+title:  "Ab initio calculations of low-energy nuclear scattering
 using a generalized L&#252;scher method"
 author: "Xilin Zhang, Ragnar Stroberg, Petr Navratil, Chan Gwak, Jordan Melendez, Dick Furnstahl, and Jason Holt"
 doi: 
