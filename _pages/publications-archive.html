@@ -14,7 +14,11 @@ title: "Publications"
         {% if post.pub %}
         	<a href="{{ post.link }}">{{ post.pub }}</a>,
         {% endif %}
-        <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>.
+        <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>
+        {% if post.notebook_link %}
+          <a href="{{ post.notebook_link }}">[notebooks]</a>
+        {% endif %}
+        .
         {% if post.excerpt %}
           <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html   | truncate: 160 }}</div>
         {% endif %}
