@@ -3,7 +3,7 @@ title:  "Effective Field Theory Truncation Errors and Why They Matter"
 author: "Jordan Melendez"
 doi: 
 arxiv: 
-pub: "OhioLINK Electronic Thesis or Dissertation"
+pub: "PhD Thesis at OhioLINK"
 link: "http://rave.ohiolink.edu/etdc/view?acc_num=osu1587114253866152"
 notebook_link: 
 ---
