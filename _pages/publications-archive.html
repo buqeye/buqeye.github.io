@@ -14,7 +14,9 @@ title: "Publications"
         {% if post.pub %}
         	<a href="{{ post.link }}">{{ post.pub }}</a>,
         {% endif %}
-        <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>.
+        {% if post.arxiv %}
+           <a href="https://arxiv.org/abs/{{post.arxiv}}">arXiv:{{post.arxiv}}</a>.
+        {% endif %}
         {% if post.notebook_link %}
           <a href="{{ post.notebook_link }}">[notebooks]</a>
         {% endif %}
