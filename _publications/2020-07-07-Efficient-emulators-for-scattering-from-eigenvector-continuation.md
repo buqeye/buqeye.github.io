@@ -1,6 +1,6 @@
 ---
 title:  "Efficient emulators for scattering using eigenvector continuation"
-author: "Dick Furnstahl, Jordan Melendez, and Daniel Phillips"
+author: "Dick Furnstahl, Alberto Garcia, Patrick Millican, and Xilin Zhang"
 doi: 
 arxiv: "2007.03635"
 pub: 
