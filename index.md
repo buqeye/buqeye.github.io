@@ -9,6 +9,8 @@ header:
   overlay_filter: rgba(0, 0, 0, 0.1)
 ---
 
+**Breaking news:** BUQEYE Jordan Melendez has been selected to receive the American Physical Society's <a href="https://www.aps.org/programs/honors/prizes/nuclear.cfm">2021 Dissertation Award in Nuclear Physics</a> for his thesis <a href="https://inspirehep.net/literature/1806708">*Effective Field Theory Truncation Errors and Why They Matter*</a>.
+
 The BUQEYE Collaboration aims to use statistical tools to answer fundamental problems in the construction and application of effective field theories (EFTs), with particular attention to low-energy nuclear physics.
 This includes Bayesian parameter estimation, model checking, model selection, and experimental design.
 
