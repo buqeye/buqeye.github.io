@@ -3,7 +3,7 @@ title:  "How well do we know the neutron-matter equation of state at the densiti
 author: "Christian Drischler, Dick Furnstahl, Jordan Melendez, and Daniel Phillips"
 doi: 
 arxiv: "1808.08211"
-pub: 
+pub: "Phys. Rev. Lett. (in press)"
 link: 
 notebook_link: "https://github.com/buqeye/nuclear-matter-convergence"
 ---
