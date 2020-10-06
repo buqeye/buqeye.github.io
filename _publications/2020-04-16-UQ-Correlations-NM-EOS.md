@@ -3,7 +3,7 @@ title:  "Quantifying uncertainties and correlations in the nuclear-matter equati
 author: "Christian Drischler, Jordan Melendez, Dick Furnstahl, and Daniel Phillips"
 doi: 
 arxiv: "2004.07805"
-pub: 
+pub: Phys. Rev. C (in press)
 link: 
 notebook_link: "https://github.com/buqeye/nuclear-matter-convergence"
 ---

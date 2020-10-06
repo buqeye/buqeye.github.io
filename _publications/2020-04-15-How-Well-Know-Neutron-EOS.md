@@ -2,7 +2,7 @@
 title:  "How well do we know the neutron-matter equation of state at the densities inside neutron stars? A Bayesian approach with correlated uncertainties"
 author: "Christian Drischler, Dick Furnstahl, Jordan Melendez, and Daniel Phillips"
 doi: 
-arxiv: "1808.08211"
+arxiv: "2004.07232"
 pub: "Phys. Rev. Lett. (in press)"
 link: 
 notebook_link: "https://github.com/buqeye/nuclear-matter-convergence"
