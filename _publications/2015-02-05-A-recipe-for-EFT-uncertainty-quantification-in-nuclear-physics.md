@@ -3,7 +3,7 @@ title: A recipe for EFT uncertainty quantification in nuclear physics
 author: "Dick Furnstahl, Daniel Phillips, and Sarah Wesolowski"
 doi: "10.1088/0954-3899/42/3/034028"
 arxiv: "1407.0657"
-pub: "J.Phys. G 42, 034028 (2015)"
+pub: "J. Phys. G 42, 034028 (2015)"
 link: "https://iopscience.iop.org/article/10.1088/0954-3899/42/3/034028"
 ---
 

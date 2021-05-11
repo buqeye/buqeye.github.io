@@ -3,7 +3,7 @@ title:  "Bayesian truncation errors in chiral effective field theory: Nucleon-nu
 author: "Jordan Melendez, Sarah Wesolowski, and Dick Furnstahl"
 doi: "10.1103/PhysRevC.96.024003"
 arxiv: "1704.03308"
-pub: "Phys.Rev. C 96, 024003 (2017)"
+pub: "Phys. Rev. C 96, 024003 (2017)"
 link: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.96.024003"
 ---
 
