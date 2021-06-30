@@ -2,9 +2,9 @@
 title:  "Fast & accurate emulation of two-body scattering observables without wave functions"
 author: "Jordan Melendez, Christian Drischler, Alberto Garcia, Dick Furnstahl, and Xilin Zhang"
 doi:
-arxiv: http://arxiv.org/abs/2106.15608
+arxiv: "2106.15608"
 pub:
-link:
+link: http://arxiv.org/abs/2106.15608
 notebook_link:
 ---
 
