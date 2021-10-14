@@ -1,5 +1,5 @@
 ---
-title: "Gaussian process error modeling for chiral effective-field-theory calculations of $np-->d gamma$ at low energies"
+title: "Fast emulation of quantum three-body scattering"
 author: "Xilin Zhang and R.J. Furnstahl"
 doi:
 arxiv: "2110.04269"
