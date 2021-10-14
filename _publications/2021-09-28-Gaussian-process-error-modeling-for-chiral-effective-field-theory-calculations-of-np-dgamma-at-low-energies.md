@@ -1,5 +1,5 @@
 ---
-title: "Gaussian process error modeling for chiral effective-field-theory calculations of $np\leftrightarrow d\gamma$ at low energies"
+title: "Gaussian process error modeling for chiral effective-field-theory calculations of $np-->d gamma$ at low energies"
 author: "Bijaya Acharya and Sonia Bacca"
 doi:
 arxiv: "2109.13972"
