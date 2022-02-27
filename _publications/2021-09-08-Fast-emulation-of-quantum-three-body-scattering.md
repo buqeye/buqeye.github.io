@@ -1,6 +1,6 @@
 ---
 title: "Fast emulation of quantum three-body scattering"
-author: "Xilin Zhang and R.J. Furnstahl"
+author: "Xilin Zhang and Dick Furnstahl"
 doi:
 arxiv: "2110.04269"
 pub:
