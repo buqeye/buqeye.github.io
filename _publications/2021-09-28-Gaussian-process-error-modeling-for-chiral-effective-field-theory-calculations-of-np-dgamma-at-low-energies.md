@@ -1,10 +1,10 @@
 ---
 title: "Gaussian process error modeling for chiral effective-field-theory calculations of $np \\leftrightarrow d \\gamma$ at low energies"
 author: "Bijaya Acharya and Sonia Bacca"
-doi:
+doi: "10.1016/j.physletb.2022.137011"
 arxiv: "2109.13972"
-pub:
-link: "https://arxiv.org/abs/2109.13972"
+pub: "Phys. Lett. B 827, 137011"
+link: "https://www.sciencedirect.com/science/article/pii/S0370269322001459?via%3Dihub"
 notebook_link:
 ---
 
