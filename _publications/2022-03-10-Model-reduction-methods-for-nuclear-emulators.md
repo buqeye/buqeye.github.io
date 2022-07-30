@@ -1,6 +1,6 @@
 ---
 title: "Model reduction methods for nuclear emulators"
-author: "Jordan Melendez, Christian Drischler, Dick Furnstahl, Alberto Garcia, Xilin Zhang"
+author: "Jordan Melendez, Christian Drischler, Dick Furnstahl, Alberto Garcia, and Xilin Zhang"
 doi:
 arxiv: "2203.05528"
 pub:
