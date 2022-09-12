@@ -1,10 +1,10 @@
 ---
-title: "Chapter 'Fast emulation of quantum three-body scattering' in 'Nuclear Forces for Precision Nuclear Physics -- a collection of perspectives'"
+title: "Chapter 'Fast emulation of quantum three-body scattering' in 'Nuclear Forces for Precision Nuclear Physics: A Collection of Perspectives'"
 author: "Christian Drischler and Xilin Zhang"
-doi:
+doi: "10.1007/s00601-022-01749-x"
 arxiv: "2202.01105"
-pub:
-link: "https://arxiv.org/abs/2202.01105"
+pub: "Few-Body Systems 63, 67 (2022)"
+link: "https://link.springer.com/article/10.1007/s00601-022-01749-x"
 notebook_link:
 ---
 
