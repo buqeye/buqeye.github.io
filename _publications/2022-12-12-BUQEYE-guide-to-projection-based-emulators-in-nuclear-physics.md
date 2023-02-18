@@ -1,10 +1,10 @@
 ---
 title: "BUQEYE Guide to Projection-Based Emulators in Nuclear Physics"
 author: "Christian Drischler, Jordan Melendez, Dick Furnstahl, Alberto Garcia, and Xilin Zhang"
-doi:
+doi: "10.3389/fphy.2022.1092931"
 arxiv: "2212.04912"
-pub:
-link:
+pub: "Front. Phys. 10"
+link: "https://www.frontiersin.org/articles/10.3389/fphy.2022.1092931/full"
 notebook_link: "https://github.com/buqeye/frontiers-emulator-review"
 ---
 
