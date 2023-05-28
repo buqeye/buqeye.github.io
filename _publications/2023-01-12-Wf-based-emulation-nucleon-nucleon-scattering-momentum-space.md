@@ -1,10 +1,10 @@
 ---
 title: "Wave function-based emulation for nucleon-nucleon scattering in momentum space"
 author: Alberto Garcia, Christian Drischler, Dick Furnstahl, Jordan Melendez, and Xilin Zhang
-doi:
+doi: "10.1103/PhysRevC.107.054001"
 arxiv: "2301.05093"
-pub:
-link:
+pub: "Phys. Rev. C 107, 054001"
+link: "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.107.054001"
 notebook_link: "https://github.com/buqeye/scattering-emulators"
 ---
 
