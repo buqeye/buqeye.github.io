@@ -12,6 +12,7 @@ header:
 
 The BUQEYE Collaboration aims to use statistical tools to answer fundamental problems in the construction and application of effective field theories (EFTs), with particular attention to low-energy nuclear physics.
 This includes Bayesian parameter estimation, model checking, model selection, and experimental design.
+We also develop emulators to facilitate these applications.
 
 We have proposed and tested a Bayesian model of truncation errors, which is often the dominant source of errors for EFTs.
 Meaningful uncertainty quantification (UQ) allows physicists to compare theory to experiment, but we have also shown that it provides a useful metric to avoid overfitting the parameters the EFT and to validate that the EFT is working as expected.
