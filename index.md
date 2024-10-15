@@ -20,6 +20,10 @@ Specific applications are to chiral EFT, pionless and halo EFT, and to electrowe
 
 <hr>
 
+**Congratulations:** BUQEYE Dick Furnstahl was selected to receive the American Physical Society's <a href="https://www.aps.org/funding-recognition/prize/herman-feshbach-prize">2025 Herman Feshbach Prize in Theoretical Nuclear Physics</a>. The citation reads:
+
+> For foundational contributions to calculations of nuclei, including applying the Similarity Renormalization Group to the nuclear force, grounding nuclear density functional theory in those forces, and using Bayesian methods to quantify the uncertainties in effective field theory predictions of nuclear observables._
+
 **Congratulations:** BUQEYE Jordan Melendez was selected to receive the American Physical Society's <a href="https://www.aps.org/programs/honors/prizes/nuclear.cfm">2021 Dissertation Award in Nuclear Physics</a> for his thesis: <a href="https://inspirehep.net/literature/1806708">*Effective Field Theory Truncation Errors and Why They Matter*</a>. This thesis is a great introduction to BUQEYE technology.
 
 
