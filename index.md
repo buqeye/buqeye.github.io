@@ -28,4 +28,4 @@ Specific applications are to chiral EFT, pionless and halo EFT, and to electrowe
 
 
 
-*Supported in part by the US Department of Energy, the National Science Foundation, and the SciDAC NUCLEI-3 project.*
+*Supported in part by the US Department of Energy, the National Science Foundation, and the SciDAC NUCLEI projects.*
