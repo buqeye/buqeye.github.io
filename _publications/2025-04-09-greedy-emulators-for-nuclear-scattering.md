@@ -1,7 +1,7 @@
 ---
 title: "Greedy Emulators for Nuclear Two-Body Scattering" 
 author: Joshua Maldonado, Christian Drischler, Dick Furnstahl, and Petar Mlinarić
-doi: "https://doi.org/10.48550/arXiv.2504.06092" 
+doi: "https://doi.org/10.1103/k77q-f82l" 
 arxiv: "2504.06092"
 pub: "Phys. Rev. C 112, 024002"
 link: "https://journals.aps.org/prc/abstract/10.1103/k77q-f82l"
